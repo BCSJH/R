@@ -1,0 +1,64 @@
+x<- 3 + 4
+x
+y = 10
+x > y
+x<- seq(1,10,by=3)
+x
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.02")
+q()
+x <- c(80,75,70)
+x
+x <- seq(1,10,by=3)
+x
+y <- sepq(1,10,length.out=5)
+y <- seq(1,10,length.out=5)
+y
+x <- seq(1,10,by=3)
+x
+y <- seq(1,10,length.out=5)
+y
+x <- c(1,2,3)
+rep(x, times=2)
+rep(x,each=2)
+x <-c(1,2,3,4,5)
+x[2]
+x[c(1,3,5)]
+x[-c(2,4)]
+x[x>2]
+x[x>=2&x<=4]
+x[2] <- 20
+x[c(3,4)] <- 15
+x[x<=15] <-10
+x
+x <-seq(1:10)
+mean(x)
+var(x)
+sd(x)
+sqrt(x)
+length(x)
+abs(x)
+x <- array(1:3,dim=c(3))
+x
+x[1,3]
+x <- array(1:6,dim=c(2,3))
+x <- array(1:6,dim=c(2,3))
+x
+x[1,3]
+x[,3]
+x[,3]
+x[1,2]
+mea <- list(c("1행","2행"),c("1열","2열",'3열"))
+names <- list(c("1행","2행"),c("1열","2열",'3열"))
+names <- list(c("1행","2행"),c("1열","2열",'3열"))
+names <- list(c("1행","2행"),c("1열","2열",'3열"))
+names <-
+list(c("1행","2행"),
+),c("1열","2열",'3열"))
+names <-
+list(c("1행","2행"),
+c("1열","2열",'3열"))
+ㅌ
+x
+x
+x[]s
+xafjdlsk
