@@ -1,0 +1,5 @@
+mag <- quakes$mag
+mag
+hist(mag,main="지진 발생 강도의 분포",xlab="지진 강도",ylab="발생 건수")
+boxplot(mag,main="지진 방생 강도의 분포",xlab="지진",ylab="발생 건수",col="red")
+save.image("C:\\Users\\kimbh\\Desktop\\2019.09.10(R복습3)")
