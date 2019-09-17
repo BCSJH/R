@@ -1,0 +1,33 @@
+x<- 3 + 4
+x
+y = 10
+x > y
+x<- seq(1,10,by=3)
+x
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.02")
+q()
+library(animation)
+library(png)
+ani.options(interval = 0.5)
+plot.new()
+rect(0,0,1,1,cols="white")
+rect(0,0,1,1,col="white")
+for(i in 1:6){
+img <-paste("C:\Users\CS3-03\Desktop\2019.09.17\ball",i,".png",sep="")
+img <-paste("C:\\2019.09.17\ball",i,".png",sep="")
+for(i in 1:6){
+img <-paste("C:\\2019.09.17\ball",i,".png",sep="")
+img<-readPNG(img)
+rasterImage(img,0,0,1,1)
+ani.pause()
+}
+dev.off()
+ani.options(interval = 0.5)
+library(animation)
+library(png)
+for(i in 1:6){
+img <-paste("C:\\2019.09.17\ball",i,".png",sep="")
+img<-readPNG(img)
+ani.pause()
+}
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.17\\2019.09..17")
