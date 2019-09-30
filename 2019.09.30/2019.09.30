@@ -1,0 +1,85 @@
+x<- 3 + 4
+x
+y = 10
+x > y
+x<- seq(1,10,by=3)
+x
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.02")
+q()
+data <- read.csv
+data2 <- data[]
+data <- read.csv
+data2 <- data[]
+install.packages("wordloud")
+install.packages("wordloud")
+install.packages("wordloud")
+install.packages("wordcloud")
+libarary(wordcloud)
+library(wordcloud)
+word <- c("인천광역시","강화군","옹진군")
+frequency <-c(651,86,61)
+wordcloud(word,frequency,colors="blue")
+data <- read.csv()
+library(wordcloud)
+library(RColorBrewer)
+pals <- breqer.pal(8,"Dark2")
+pals <- brewer.pal(8,"Dark2")
+data <- read.csv(file.choose(),header=T)
+head(data)
+data2 <- data[data$행정구역.시군구.별!="전국",]
+head(data2)
+x<-grep("구$",data2$행정구역.시군구.별)
+data3 <0data2[-c(x).]
+data3 <-data2[-c(x).]
+data3 <-data2[-c(x),]
+head(data3)
+data4<-data3[data3$순이동.명>0,]
+word<-data4$행정구역.시군구.별
+frequency<-data4$순이동.명
+wordcloud(word,requency,colors=pla2)
+wordcloud(word,requency,colors=pal2)
+wordcloud(word,requency,colors=pals)
+wordcloud(word,frequency,colors=pals)
+pals <- brewer.pal(8,"Dark2")
+wordcloud(word,frequency,colors=pals)
+pals <- breqer.pal(8,"Dark2")
+pals <- brewer.pal(8,"Dark2")
+data <- read.csv(file.choose(),header=T)
+head(data)
+data2 <- data[data$행정구역.시군구.별!="전국",]
+head(data2)
+x<-grep("구$",data2$행정구역.시군구.별)
+data3 <-data2[-c(x),]
+head(data3)
+data4<-data3[data3$순이동.명>0,]
+word<-data4$행정구역.시군구.별
+frequency<-data4$순이동.명
+wordcloud(word,frequency,colors=pals)
+library(wordcloud)
+library(RColorBrewer)
+pal2 <- brewer.pal(8,"Dark2")
+data <- read.csv(file.choose(),header=T)
+head(data)
+data2 <-data[data$행정구역.시군구.별!="전국",]
+head(data2)
+x<- grep("구$",data2$행정구역.시군구.별)
+data3 <- data2[-c(x),]
+head(data3)
+data4 <- data3[data3$순이동.명> 0,]
+data4$행정구역.시군구.별
+frequency<-data4$순이동.명
+wordcloud(word,frequency,colors=pal2)
+library(wordcloud)
+library(RColorBrewer)
+pal2 <- brewer.pal(8,"Dark2")
+data <- read.csv(file.choose(),header=T)
+head(data)
+data2 <-data[data$행정구역.시군구.별!="전국",]
+head(data2)
+x<- grep("구$",data2$행정구역.시군구.별)
+data3 <- data2[-c(x),]
+head(data3)
+data4 <- data3[data3$순이동.명> 0,]
+word <- data4$행정구역.시군구.별
+frequency<-data4$순이동.명
+wordcloud(word,frequency,colors=pal2)
