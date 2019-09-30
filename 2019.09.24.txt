@@ -1,0 +1,13 @@
+﻿ library(animation)
+ library(png)//install.packages("png")
+ ani.options(interval=0.5)
+ plot.new()
+ rect(0,0,1,1,col="white")
+
+ for(i in 1:6){
+ img <- paste("C://temp/ball",i,".png",sep="")
+ img <- readPNG(img)
+ rasterImage(img,0,0,1,1)
+ ani.pause()
+ }
+ dev.off()

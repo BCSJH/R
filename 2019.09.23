@@ -1,0 +1,28 @@
+x<- 3 + 4
+x
+y = 10
+x > y
+x<- seq(1,10,by=3)
+x
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.02")
+q()
+ head(quakes)
+mag <- quakes$mag
+hist(mag,main="지진 발생 강도의 분표", xlab="지진 강도", ylab="발생건수")
+colors <- c("red", "orange", "yellow", "green", "blue", "navy", "violet")
+hist(mag,main="지진 발생 강도의 분포", xlab="지진 강도", ylab="발생 건수", col=colors, breaks=seq(4, 6.5, by=0.5), freq=FALSE)
+lines(density(mag))
+hist(mag, main="지진발생 강도의 분포", xlab="지진강도", ylab="발생 건수", col=colors, breaks="sturges", freq=FALSE)
+mag<-quakes$mag
+min(mag)
+max(mag)
+median(mag)
+quantile(mag, c(0.25, 0.5, 0.75))
+boxplot(mag, main="지진 발생 강도의 분포", xlab="지진", ylab="발생 건수",col ="red")
+url<- "https://raw.githubusercontent.com/cran/BTYD/master/data/cdnowElog.csv"
+data<-read.csv(url,header = T)
+head(data)
+quantity <- data$cds
+table(quantity)
+colors <- c("red", "orange", "green", "blue", "navy", "violet")
+hist(quantity, main="CD 거래량 분포", xlab="CD 거래량", ylab="빈도수",col=colors, breaks="sturges")
