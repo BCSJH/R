@@ -1,0 +1,6 @@
+pal2 <- brewer.pal(8,"Dark2")
+text <- readLines(file.choose())
+noun <- sapply(text,extractNoun,USE.NAMES = F)
+noun2<-unlist(noun)
+wordcount <- table(noun2)
+wordcloud(names(wordcount),freq = wordcount,scale=c(6,0,3),min.freq = 3,random.order = F,rot.per = .1,colors = pal2)
