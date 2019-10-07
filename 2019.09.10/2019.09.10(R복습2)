@@ -1,0 +1,17 @@
+x<- 3 + 4
+x
+y = 10
+x > y
+x<- seq(1,10,by=3)
+x
+save.image("C:\\Users\\CS3-03\\Desktop\\2019.09.02")
+q()
+x <- data.frame(성명=c("홍길동","손오공"),나이=c(20,30),주소=c("서울","부산"))
+x
+x <- cbind(x,학과=c("전산학","경영학"))
+x
+x <- rbind(x,data.frame(성명="장발장",나이=40,주소="파리",학과="전산학"))
+x
+height <-c(9,15,20,6)
+name <-c("영업 1팀", "영업 2팀", "영업 3팀", "영업 4팀")
+barplot(height, names.arg=name,main="부서별 영업실적",col=rainbow(length(height)),xlab="부서",ylab="영업실적(억원)")
