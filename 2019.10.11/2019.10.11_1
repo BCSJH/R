@@ -1,0 +1,19 @@
+#install.packages("gggplot2")
+#install.packages("RgoogleMaps")
+#install.packages("ggmap")
+library(ggplot2)
+library(RgoogleMaps)
+library(ggmap)
+
+names <- c("1.도담삼봉/석문", "2.구담/옥순봉", "3.사인암","4.하선암","5.중선암", "상선암")
+addr <- c("충청북도 단양군 매포읍 삼봉로 644-33",
+          "충청북도 단양군 단성면 월악로 3827",
+          "충청북도 단양군 대강면 사인암2길 42",
+          "충청북도 단양군 단성면 선암계곡로 1337",
+          "충청북도 단양군 단성면 선암계곡로 868-2",
+          "충청북도 단양군 단성면 선암계곡로 790")
+
+gc <- geocode(enc2utf8(addr))
+gc
+
+
